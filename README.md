@@ -1,6 +1,6 @@
 # FloodRiskDashboard_gdal
 
-Important points for building a geopandas/gdal dependent conda environment
+Important points for building a geopandas/gdal dependent conda environment  
 a. Install geopandas and dependencies with conda  
 b. Install pip into conda environment  
 d. Install dash and related plotly pakcages with pip (into conda environment)  
