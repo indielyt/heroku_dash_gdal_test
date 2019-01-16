@@ -14,13 +14,19 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 markdown_text = '''
-### Dash and Markdown
+### baker gdal test
 
-Dash apps can be written in Markdown.
-Dash uses the [CommonMark](http://commonmark.org/)
-specification of Markdown.
-Check out their [60 Second Markdown Tutorial](http://commonmark.org/help/)
-if this is your first introduction to Markdown!
+Flood Risk Dashboard V1 referenced static geospatial files 
+created as 'prebaked' query results.  
+
+Geopandas is an open source geospatial library built on the c library GDAL.
+With geopandas up and running, we should be able to query a .shp file on the 
+cloud platform.  This allows a wider range of user defined queries to be visualized.
+
+For example, weighting for flood risk scoring can be defined by the user and results are
+computed on the fly.  A second example would be sociovulnerability attributes driving the visualization.
+Interactive querying, rather than static files, can allow one .shp file to drive [hundreds] of different 
+visualizations of the same dataset.
 '''
 
 
