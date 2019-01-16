@@ -11,6 +11,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 # columns = list(df.columns.values)
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 markdown_text = '''
 ### Dash and Markdown
