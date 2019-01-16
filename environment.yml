@@ -1,16 +1,13 @@
 name: TEST_GDAL
 channels:
-  - anaconda
   - defaults
 dependencies:
-  - ca-certificates=2018.03.07=0
-  - certifi=2018.10.15=py36_0
-  - gunicorn=19.9.0=py36_0
-  - openssl=1.1.1=h1de35cc_0
   - attrs=18.2.0=py36h28b3542_0
   - blas=1.0=mkl
   - bzip2=1.0.6=h1de35cc_5
+  - ca-certificates=2018.03.07=0
   - cairo=1.14.12=hc4e6be7_4
+  - certifi=2018.11.29=py36_0
   - click=7.0=py36_0
   - click-plugins=1.0.4=py36_0
   - cligj=0.5.0=py36_0
@@ -28,6 +25,7 @@ dependencies:
   - gettext=0.19.8.1=h15daf44_3
   - giflib=5.1.4=h1de35cc_1
   - glib=2.56.2=hd9629dc_0
+  - gunicorn=19.9.0=py36_0
   - hdf4=4.2.13=h39711bb_2
   - hdf5=1.10.4=hfa1e0ec_0
   - icu=58.2=h4b95b61_1
@@ -66,6 +64,7 @@ dependencies:
   - numpy=1.15.4=py36h6a91979_0
   - numpy-base=1.15.4=py36h8a80b8c_0
   - openjpeg=2.3.0=hb95cd4c_1
+  - openssl=1.1.1a=h1de35cc_0
   - pandas=0.23.4=py36h6440ff4_0
   - pcre=8.42=h378b8a2_0
   - pip=18.1=py36_0
@@ -103,7 +102,6 @@ dependencies:
     - decorator==4.3.0
     - flask==1.0.2
     - flask-compress==1.4.0
-    - gunicorn==19.9.0
     - idna==2.8
     - ipython-genutils==0.2.0
     - itsdangerous==1.1.0
