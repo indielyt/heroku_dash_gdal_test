@@ -1,10 +1,10 @@
 # FloodRiskDashboard_gdal
 
 Important points for building a geopandas/gdal dependent conda environment
-a. Install geopandas and dependencies with conda
-b. Install pip into conda environment
-d. Install dash and related plotly pakcages with pip (into conda environment)
-e. Install gunicorn and geopandas using both conda and pip
+a. Install geopandas and dependencies with conda  
+b. Install pip into conda environment  
+d. Install dash and related plotly pakcages with pip (into conda environment)  
+e. Install gunicorn and geopandas using both conda and pip  
 
 Steps for successfully deploying geopandas and dependencies to heroku:
 1. conda env export > environment.yml (with working conda env activated, test locally first)
