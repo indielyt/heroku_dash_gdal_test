@@ -12,7 +12,7 @@ Steps for successfully deploying geopandas and dependencies to heroku:
 1. conda env export > environment.yml (with working conda env activated, test locally first)
 2. pip freeze > requirements.txt (while in active conda environment)
 3. clean up two package dependency files.  Environment.yml and requirements.txt will have repeated package dependencies.  This is 
- both unnecessary and problematic for deployment to heroku (despite working fine locally).  Repeated packages lead to a bloated slug size which exceeded the 500 mb slug limit on heroku.  Repeated packages also caused a number of failure modes during deployment. With both files open, compare and remove repeated packages from the requirements.txt.  NOTE: leave geopandas and gunicorn in both pip and conda requirements.
+ both unnecessary and problematic for deployment to heroku (despite working fine locally).  Repeated packages led to a bloated slug size which exceeded the 500 mb slug limit on heroku.  Repeated packages also caused a number of failure modes during deployment. With both files open, compare and remove repeated packages from the requirements.txt.  NOTE: leave geopandas and gunicorn in both pip and conda requirements.
  4. Create new heroku app
  5. Add two buildpacks to heroku app: https://github.com/heroku/heroku-buildpack-apt, and default python buildpack.  
  
