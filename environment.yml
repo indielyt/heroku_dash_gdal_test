@@ -24,7 +24,6 @@ dependencies:
   - gettext=0.19.8.1=h15daf44_3
   - giflib=5.1.4=h1de35cc_1
   - glib=2.56.2=hd9629dc_0
-  - gunicorn=19.9.0=py35_0
   - hdf4=4.2.13=h39711bb_2
   - hdf5=1.10.2=hfa1e0ec_1
   - icu=58.2=h4b95b61_1
@@ -101,6 +100,7 @@ dependencies:
     - decorator==4.3.0
     - flask==1.0.2
     - flask-compress==1.4.0
+    - gunicorn==19.9.0
     - idna==2.8
     - ipython-genutils==0.2.0
     - itsdangerous==1.1.0
