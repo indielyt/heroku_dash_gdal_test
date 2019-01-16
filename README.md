@@ -1,4 +1,6 @@
-# FloodRiskDashboard_gdal
+# heroku_dash_gdal_test
+
+This repo has a working example of deploying a dash app (by plotly) with geopandas and all related dependencies (gdal, fiona, shapely) to heroku.
 
 Important points for building a geopandas/gdal dependent conda environment  
 a. Install geopandas and dependencies with conda  
