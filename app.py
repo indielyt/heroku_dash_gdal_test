@@ -10,7 +10,7 @@ shp = 'shp/planimetrics_2016_centerline_trails.shp'
 df = gpd.read_file(shp)
 columns = list(df.columns.values)
 
-app = dash.Dash(__name__)#, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 markdown_text = '''
 ### Dash and Markdown
