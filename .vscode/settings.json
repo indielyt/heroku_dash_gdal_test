@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/Users/daniel/anaconda3/envs/TEST_GDAL/bin/python"
+    "python.pythonPath": "C:\\Users\\Daniel.Aragon\\AppData\\Local\\conda\\conda\\envs\\gdaltest2\\python.exe",
+    "python.linting.pylintEnabled": false
 }
