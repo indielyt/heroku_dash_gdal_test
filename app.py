@@ -5,7 +5,7 @@ import geopandas as gpd
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-# data
+# data source
 shp = 'shp/planimetrics_2016_centerline_trails.shp'
 df = gpd.read_file(shp)
 columns = list(df.columns.values)
