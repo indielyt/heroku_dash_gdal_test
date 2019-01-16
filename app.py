@@ -1,7 +1,7 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-# import geopandas as gpd
+import geopandas as gpd
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -32,3 +32,4 @@ app.layout = html.Div([
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+
